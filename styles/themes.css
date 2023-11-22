@@ -4,3 +4,23 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+:root.theme-dark {
+  --main-font: 'Inter-Variable', 'Arial', sans-serif;
+  --accent-font: 'PressStart2P', 'Times New Roman', serif;
+  --accent-weight: 785;
+  --main-weight: 465;
+  --bg-color: #000000;
+  --accent-color: #00CC14;
+  --bg-image: repeating-linear-gradient(180deg, #000 0 2px, transparent 2px 4px), repeating-linear-gradient(90deg, #000 0 2px, transparent 2px 4px), repeating-linear-gradient(180deg, #007f0c 0%, #004306 100%);
+}
+
+:root.theme-light {
+  --main-font: 'Inter-Variable', 'Arial', sans-serif;
+  --accent-font: 'PressStart2P', 'Times New Roman', serif;
+  --accent-weight: 700;
+  --main-weight: 400;
+  --bg-color: #FFFFFF;
+  --accent-color: #000000;
+  --bg-image: repeating-linear-gradient(180deg, #d3d3d3 0 2px, transparent 2px 4px), repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px), repeating-linear-gradient(180deg, #e7e7e7 0.01%, #1A1A1A 100%);
+}
