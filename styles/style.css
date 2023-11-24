@@ -390,6 +390,33 @@
   margin-top: 30px;
 }
 
+.btn_dialog::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--hover-like);
+  transition: transform 0.5s ease-in-out;
+  transform: scaleX(0);
+  transform-origin: 0 0;
+}
+
+.btn_dialog:hover::before {
+  transform: scaleX(1);
+}
+
+.btn_dialog:focus {
+  outline: none;
+}
+
+.btn_dialog:focus-visible {
+  box-shadow: 2px 2px 0px 0px var(--accent-color);
+  transition: focus-visible, 0.3s ease;
+}
+
 .btn_dialog .button__text {
   text-transform: uppercase;
 }
