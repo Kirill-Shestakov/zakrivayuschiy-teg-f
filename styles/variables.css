@@ -2,7 +2,7 @@
 
 :root {
   --main-font: "Inter-Variable", "Arial", sans-serif;
-  --accent-font: "PressStart2P", "Times New Roman", serif;
+  --accent-font: "PressStart2P", "Times New Roman", fantasy;
   --accent-weight: 700;
   --main-weight: 400;
   --bg-color: #ffffff;

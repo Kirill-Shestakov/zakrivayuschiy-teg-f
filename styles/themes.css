@@ -6,8 +6,6 @@
 */
 
 :root.theme-dark {
-  --main-font: "Inter-Variable", "Arial", sans-serif;
-  --accent-font: "PressStart2P", "Times New Roman", serif;
   --accent-weight: 785;
   --main-weight: 465;
   --bg-color: #000000;
@@ -22,8 +20,6 @@
 }
 
 :root.theme-light {
-  --main-font: "Inter-Variable", "Arial", sans-serif;
-  --accent-font: "PressStart2P", "Times New Roman", serif;
   --accent-weight: 700;
   --main-weight: 400;
   --bg-color: #ffffff;
